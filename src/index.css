@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  /* font-family: "Montserrat"; */
+  /* font-weight: 300;  */
+}
+
+::selection{
+  color: antiquewhite;
+}
+
+.create:hover{
+  background-color: #023e8a;
+}
+
+/* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 320px;
+} */
