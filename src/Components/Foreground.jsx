@@ -8,13 +8,13 @@ function Foreground() {
     {
       id: 1,
       textContent:
-        "eat , code , sleep , gym and repeat eat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeateat , code , sleep , gym and repeat",
+        "eat , code , sleep , gym and repeat",
       color: "bg-orange-500",
     },
-    { id: 2, textContent: "eat , code , sleep , gym and", color: "bg-lime-500" },
-    { id: 3, textContent: "eat , code , sleep , gym", color: "bg-lime-500" },
-    { id: 4, textContent: "eat , code , sleep", color: "bg-blue-500" },
-    { id: 5, textContent: "eat , code", color: "bg-lime-500" },
+    { id: 2, textContent: "Buy a ketchup bottle from market", color: "bg-lime-500" },
+    { id: 3, textContent: "attend meeting at 10pm", color: "bg-lime-500" },
+    { id: 4, textContent: "sleep well", color: "bg-blue-500" },
+    { id: 5, textContent: "Go to gym regularly", color: "bg-lime-500" },
     // { id: 6, textContent: "eat ", color: "bg-blue-500" }
   ]);
 
