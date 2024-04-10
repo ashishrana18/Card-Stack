@@ -43,7 +43,7 @@ function Foreground() {
   return (
     <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-screen p-5 grid gap-4 grid-cols-2 md:grid-cols-5 grid-rows-2">
       {cards.map((card) => (
-        <Card key={card.id} textContent={card.textContent} color={card.color} onDelete={() => handleDeleteCard(card.id)} />
+        <Card reference={ref} key={card.id} textContent={card.textContent} color={card.color} onDelete={() => handleDeleteCard(card.id)} />
       ))}
       <button
         className="create bg-blue-500 text-white w-12 h-12 fixed bottom-6 right-6 flex justify-center items-center rounded-full" 
